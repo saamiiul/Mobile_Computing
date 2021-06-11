@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.samiulhaq.islamiceducation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IslamicEducation">
+        <activity android:name=".LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityAsar" />
+        <activity android:name=".ActivityNasar" />
+        <activity android:name=".ActivityIkhlas" />
+        <activity android:name=".ActivityFalak" />
+        <activity android:name=".ActivityKausar" />
+        <activity android:name=".ActivityNaas" />
+        <activity android:name=".ActivityDarrod" />
+        <activity android:name=".ActivityLeaveMosque" />
+        <activity android:name=".ActivityEnterMosque" />
+        <activity android:name=".ActivityAfterMeal" />
+        <activity android:name=".ActivityMidMeal" />
+        <activity android:name=".ActivityBeforeMeal" />
+        <activity android:name=".ActivitySafarDua" />
+        <activity android:name=".SixthKalma" />
+        <activity android:name=".FifthKalma" />
+        <activity android:name=".FourthKalma" />
+        <activity android:name=".ThirdKalma" />
+        <activity android:name=".SecondKalma" />
+        <activity android:name=".FirstKalma" />
+        <activity android:name=".ActivityKalma" />
+        <activity android:name=".ActivitySurah" />
+        <activity android:name=".ActivityDua" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
