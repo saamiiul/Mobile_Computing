@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SqlLiteDatabase</string>
+    <string name="Name">Please Enter your Name</string>
+    <string name="Age">Please Enter your Age</string>
+    <string name="IsActive">Active or not</string>
+    <string name="buttonAdd">Add Record</string>
+    <string name="buttonView">View Record</string>
+</resources>
